@@ -20,6 +20,6 @@
     "content_scripts": [{
       "matches": ["*://github.com/*/pull/*"],
       "js": ["content_scripts/index.js"],
-      "run_at":"document_idle"
+      "run_at":"document_end"
     }]
   }
